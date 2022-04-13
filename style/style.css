@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Good Vibes Pro";
+    src: url(../fonts/ofont.ru_Good\ Vibes\ Pro.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Proxima Nova Rg";
+    src: url(../fonts/ofont.ru_Proxima\ Nova.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Proxima Nova Bl";
+    src: url(../fonts/ofont.ru_Proxima\ Nova\ Bl.ttf) format('truetype');
+}
+
+.intro {
+    background-image: url(../img/intro-bg.png);
+    background-size: cover;
+    padding-top: 32px;
+    padding-bottom: 395px
+}
+
+.header-list {
+    padding: 0 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-item {
+    font-family: "Proxima Nova Rg";
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.intro-title {
+    font-family: "Good Vibes Pro";
+    margin-top: 125px;
+    margin-left: 290px;
+    font-size: 85px;
+}
+
+.header-item:hover {
+    color: #00b129;
+}
+
+.intro-text {
+    font-family: "Proxima Nova Rg";
+    margin-top: 75px;
+    margin-left: 330px;
+    font-size: 36px;
+}
+
+.intro-button {
+    font-family: "Proxima Nova Bl";
+    text-shadow: 0px 2px 7px rgba(0, 73, 26, 0.47);
+    color: #ffffff;
+    margin-top: 75px;
+    margin-left: 300px;
+    font-size: 30px;
+    padding: 30px 105px;
+    border: 15px solid #e7e4e9;
+    border-radius: 50px/60px;
+    background-image: -moz-linear-gradient( -90deg, rgb(0, 197, 46) 0%, rgb(0, 171, 40) 32%, rgb(1, 122, 44) 68%, rgb(0, 73, 26) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(0, 197, 46) 0%, rgb(0, 171, 40) 32%, rgb(1, 122, 44) 68%, rgb(0, 73, 26) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(0, 197, 46) 0%, rgb(0, 171, 40) 32%, rgb(1, 122, 44) 68%, rgb(0, 73, 26) 100%);
+}
+
+
+/* Intro style end */
+
+.story {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 220px;
+}
+
+.story-tx-block {
+    padding-left: 320px;
+    /* padding-bottom: 150px; */
+}
+
+.story-title {
+    font-family: "Proxima Nova Bl";
+    font-size: 34px;
+    padding-top: 80px;
+}
+
+.story-text {
+    margin-top: 50px;
+    font-family: "Proxima Nova Rg";
+    font-size: 32px;
+}
+
+.story-img {
+    margin-right: 60px;
+}
+
+
+/* Story style end */
+
+.cost {
+    background-image: url(../img/cost-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cost-title {
+    font-family: "Good Vibes Pro";
+    font-size: 85px;
+    text-align: center;
+}
+
+.cost-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    column-gap: 25px;
+    row-gap: 200px;
+    padding: 50px 320px 185px;
+}
+
+.cost-card-title {
+    font-family: "Proxima Nova Rg";
+    font-size: 35px;
+    margin: 60px auto 45px;
+}
+
+.card-1-color {
+    color: #006459;
+}
+
+.card-2-color {
+    color: #80432b;
+}
+
+.card-3-color {
+    color: #b83c05;
+}
+
+.card-4-color {
+    color: #005d32;
+}
+
+.cost-card-text {
+    font-family: "Proxima Nova Rg";
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.cost-card-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+.cost-card-price {
+    font-family: "Proxima Nova Rg";
+    font-size: 50px;
+}
+
+.cost-card-bt {
+    font-size: 35px;
+    font-family: "Proxima Nova Rg";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.47);
+    width: 241px;
+    height: 84px;
+    background-image: -moz-linear-gradient( 90deg, rgb(252, 242, 127) 0%, rgb(255, 213, 45) 34%, rgb(228, 189, 8) 61%, rgb(242, 176, 4) 79%, rgb(255, 162, 0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252, 242, 127) 0%, rgb(255, 213, 45) 34%, rgb(228, 189, 8) 61%, rgb(242, 176, 4) 79%, rgb(255, 162, 0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(252, 242, 127) 0%, rgb(255, 213, 45) 34%, rgb(228, 189, 8) 61%, rgb(242, 176, 4) 79%, rgb(255, 162, 0) 100%);
+    opacity: 0.702;
+    border: 1px solid #e7e4e9;
+    border-radius: 50px/60px;
+}
+
+
+/* Wait style start */
+
+.wait {
+    /* max-width: 1276px;
+    max-height: 1651px; */
+}
+
+.wait-title {
+    font-family: "Good Vibes Pro";
+    font-size: 85px;
+    text-align: center;
+}
+
+.wait-card {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding: 40px 320px 70px;
+    /* column-gap: 25px;
+    row-gap: 200px;
+     */
+}
+
+.wait-msg {
+    display: flex;
+    align-items: center;
+    background-image: url(..//img/wait-bg-1.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+}
+
+.wait-text {
+    font-family: "Proxima Nova Rg";
+    font-size: 24px;
+    color: #000000;
+    text-align: left;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
